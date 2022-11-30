@@ -1,0 +1,17 @@
+.topic-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.topic-item {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 60px;
+}

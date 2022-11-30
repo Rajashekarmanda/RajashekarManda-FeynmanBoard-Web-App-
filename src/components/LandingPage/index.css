@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4d5eb3;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 600px;
+}
+.input-username {
+  height: 50px;
+  width: 550px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: lightcoral;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.landing-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}

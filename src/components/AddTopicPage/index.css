@@ -1,0 +1,85 @@
+.add-topic-container-is {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90%;
+  /* border: 2px solid red; */
+}
+.topic-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 33px;
+  font-weight: 600;
+}
+.topic-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 80vh;
+  width: 45%;
+  background-color: lightcoral;
+  border-radius: 45px;
+}
+.input-container-is {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 530px;
+  border-radius: 20px;
+}
+.input-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+}
+.topic-title-input {
+  height: 40px;
+  width: 200px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 10px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  cursor: auto;
+}
+.text-area-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 530px;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+.text-area-input-is {
+  height: 400px;
+  width: 530px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  text-align: start;
+  background-color: gray;
+  border-radius: 30px;
+}
+.button-back {
+  height: 38px;
+  width: 80px;
+  background-color: blue;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+}
